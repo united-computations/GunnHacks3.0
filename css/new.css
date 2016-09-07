@@ -3,15 +3,24 @@ html {
     width: 100%;
     margin:0;
     padding: 0;
+    background-image: url("../img/bg.jpg")!important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 body {
     /*height: 100%;*/
+    z-index: 100;
     width: 100%;
     margin: 0;
     padding: 0;
     font-family: 'Raleway', 'Lato';
-    background-color: #DD5D5C;
+    background-color: rgba(221, 93, 92, 1);
     color: #FFF;
 }
 
@@ -107,9 +116,4 @@ input[type="button"] {
 
 .email {
     cursor: auto;
-}
-
-#logo {
-    width: 10%;
-    height: auto;
 }
