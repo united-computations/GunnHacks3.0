@@ -4,9 +4,53 @@ body {
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
     overflow-x: hidden;
+}
 
+#hero{
+  background-image: url("../img/bg.jpg")!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:cover;
+  position:relative;
+  height:100vh;
+  font-family: 'Roboto', 'Helvetica Neue';
+}
 
+.content {
+  font-family: "Helvetica", sans-serif;
+  text-align:left;
+  margin-top: 20px;
+}
 
+.schedule {
+  font-family: "Helvetica", sans-serif;
+  margin-top: -10px;
+}
+
+.schedule h6 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 15pt;
+}
+
+.nav {
+  font-family: "Futura", "Helvetica", sans-serif;
+  text-transform: uppercase;
+  word-spacing:20px;
+  font-size: 14pt;
+  margin-top: 30px;
+}
+
+.nav a {
+  text-decoration: none!important;
+}
+
+.nav a:hover {
+  text-decoration: underline!important;
 }
 
 .layer {
@@ -24,7 +68,7 @@ body {
     position: absolute;
     top: 50%;
     left: 0;
-    margin-top: -90px;
+    margin-top: -120px;
 }
 
 section {
@@ -87,7 +131,7 @@ footer {
 
 p {
     margin: 0 10%;
-    font-family: "Lato", sans-serif;
+    font-family: "Helvetica", "Lato", sans-serif;
 }
 
 .contact-form input[type="email"] ,.contact-form input[type="submit"] {
