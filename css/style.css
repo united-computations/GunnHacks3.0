@@ -26,6 +26,10 @@ body {
   margin-top: 20px;
 }
 
+.content h2 {
+  border-bottom: 2px solid white;
+}
+
 .schedule {
   font-family: "Helvetica", sans-serif;
   margin-top: -10px;
@@ -51,6 +55,21 @@ body {
 
 .nav a:hover {
   text-decoration: underline!important;
+}
+
+.panel-group {
+  color:#333!important;
+  border:0;
+}
+
+.panel-group .panel-title {
+  font-family: "Helvetica", sans-serif;
+  color:#333;
+}
+
+.panel-group a {
+  color:#333!important;
+  text-decoration:none!important;
 }
 
 .layer {
