@@ -28,6 +28,8 @@ body {
 
 .content h2 {
   border-bottom: 2px solid white;
+  font-family: "Abel";
+  text-transform: uppercase;
 }
 
 .schedule {
@@ -39,10 +41,12 @@ body {
   text-align: center;
   font-weight: bold;
   font-size: 15pt;
+  text-transform: uppercase;
+  font-family: "Abel";
 }
 
 .nav {
-  font-family: "Futura", "Helvetica", sans-serif;
+  font-family: "Abel", "Helvetica", sans-serif;
   text-transform: uppercase;
   word-spacing:20px;
   font-size: 14pt;
@@ -63,13 +67,15 @@ body {
 }
 
 .panel-group .panel-title {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Abel", sans-serif;
+  text-transform: uppercase;
   color:#333;
 }
 
 .panel-group a {
-  color:#333!important;
+  color:#e74c3c!important;
   text-decoration:none!important;
+
 }
 
 .layer {
@@ -107,9 +113,9 @@ h1 {
 h3 {
     margin-top: -10px!important;
     color: white;
-    font-size: 14pt!important;
+    font-size: 17pt!important;
     font-weight: bold;
-    font-family: "Futura", "Helvetica Neue";
+    font-family: "Abel", "Helvetica Neue";
     text-transform: uppercase;
     margin-bottom: 10px;
 }
@@ -215,7 +221,7 @@ em {
     }
 
     h3 {
-      font-size: 12pt!important;
+      font-size: 14pt!important;
     }
 }
 
