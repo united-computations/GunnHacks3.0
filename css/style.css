@@ -45,6 +45,8 @@ body {
   font-family: "Abel";
 }
 
+
+
 .nav {
   font-family: "Abel", "Helvetica", sans-serif;
   text-transform: uppercase;
@@ -123,6 +125,24 @@ h3 {
 #logo {
   margin-top: -120px;
   height: 120px;
+}
+
+#sponsors {
+  padding-top: 20px;
+  color: black;
+}
+
+#sponsors a, h3 {
+  color:black!important;
+}
+
+#sponsors h2 {
+  border-bottom: 2px solid black!important;
+}
+
+#sponsors button {
+  color:black;
+  border-color: black;
 }
 
 a, button {
